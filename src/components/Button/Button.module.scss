@@ -1,0 +1,35 @@
+.buttonAdd {
+	width: 140px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 30%);
+
+	&:hover {
+		cursor: pointer;
+		background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+		transition: all 1s linear;
+	}
+}
+
+.buttonClear {
+	width: 140px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 20px;
+	background: linear-gradient(120deg, #f7af29 0%, #ff3b34 30%);
+
+	&:hover {
+		cursor: pointer;
+		background: linear-gradient(120deg, #f7af29 0%, #fd1f17 30%);
+		transition: all 1s linear;
+	}
+}
